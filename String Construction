@@ -1,17 +1,8 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
-
-#
-# Complete the 'stringConstruction' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts STRING s as parameter.
-#
 
 def stringConstruction(s):
     distinct_chars = set(s)
